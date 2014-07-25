@@ -19,3 +19,5 @@ In your cloned folder week_02/dummy_site, make me a simple "lorem ipsum" website
 1. One javascript file called "script.js".
 
 Feel free to muck around with whatever sparklies you want in these files. Push these files back up to your repo.
+
+Words and more words...
