@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 50px; /*needed this in order for the sticky to overlap the main div*/
+	margin-bottom: 50px; /*could not leave the bottom to not match the top...ocd thing*/
+}
+
+#main {
+	background-color: #EAEAEA;
+	margin: 0 auto;
+	width: 956px; /* 956+2(2)px border = 960px */
+	height: 956px; /* 956+2(2)px border = 960px */
+	border: dashed 2px rgba(134,199,117,.6); /*green*/ 
+}
+
+h1 {
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 70px;
+}
+
+h2 {
+	padding-left: 10px;
+	font-weight: 400;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+li {
+	display: inline; 
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: rgba(134,199,117,.7);
+}
+
+#sticky {
+	width: 200px;
+	height: 300px;
+	float: right;
+	background: white;
+	border: solid 1px;
+	margin-top: -10px; /*needed this is order for the sticky to overlap the main div*/
+	position: absolute;
+	margin-left: 1215px;
+}
+
+#sticky p {
+	padding: 10px;
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	font-weight: 300;
+	
+}
+	
+#boxes dd {
+	background: white;
+	float: left;
+	height: 150px;
+	width: 276px;
+	border: solid 1px;
+	margin: 50px 10px 25px;
+	padding: 10px;
+	list-style-type: none;
+	padding-left: 10px;	
+}
+
+dd {
+	font-size: 10px;
+	font-weight: 300;
+}
+
+dt {
+	visibility: hidden;
+}
+
+.yoga_pic {
+	height: 150px;
+	width: 276px;
+}
+
+#info {
+	height: 150px;
+	width: 50%;
+	border: 1px solid rgba(134,199,117,.9);
+	overflow: auto;
+	margin-left: 10px;
+}
+
+#info p {
+	line-height: 16px;
+	font-size: 11px;
+	padding: 10px;
+	font-weight: 400;
+}
+
+.caption {
+	font-size: 14px;
+	line-height: 20px;
+}
